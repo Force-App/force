@@ -11,7 +11,7 @@ import SwiftUI
 struct forceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(totalVotes: 5)
         }
     }
 }
